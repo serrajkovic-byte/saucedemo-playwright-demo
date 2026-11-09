@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import loginPageModule from '../LoginPage';
-import loginData from '../loginUsers';
+import loginPageModule from '../pages/LoginPage';
+import loginData from './data/loginUsers';
 
 const { LoginPage } = loginPageModule;
 const { users, errorMessages } = loginData;
